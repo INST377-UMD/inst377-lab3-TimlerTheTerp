@@ -1,0 +1,96 @@
+body {
+    background-color: aqua;
+}
+
+#Maintitle {
+    text-align: center;
+    color:black;
+    background-color:blanchedalmond;
+    padding: 5px;
+    font-family: cursive;
+    margin-top: 10px;
+}
+
+#Navi {
+    color:black;
+    background-color:blueviolet;
+    text-align: center;
+}
+
+#Navi li:hover{
+    background-color: #7c7c7c;
+    color: white;
+}
+
+#Navi ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+#Main-Class {
+    display: flex;  /* Ensures both elements are placed in one line */
+    width: 100%;
+    flex-wrap: wrap;  /* Ensures responsiveness on smaller screens */
+}
+
+/* Main Content */
+.Main-Content {
+    width: 70%;  /* Takes up 70% of the width */
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Name */
+/* Initial width of the input */
+#Name {
+    width: 200px;  /* Set initial width */
+    transition: width 0.3s ease;  /* Smooth transition for the width change */
+}
+
+/* When the input is focused */
+#Name:focus {
+    width: 300px;  /* Increase width on focus */
+}
+
+/*Info */
+.Info-Area {
+    width:50%;
+    float: left;
+    margin: 0;
+
+}
+
+.Options {
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+/* Info */
+#instructions {
+    width:30%;
+    float: right;
+    margin: 0;
+    text-align: center;
+    background-color:limegreen;
+}
+
+
+#instructions li:hover {
+    background-color: yellow;
+    color: white;           
+}
+
+#Message {
+    background-color: #333; 
+    color: white;       
+    text-align: center;      
+    padding: 10px 0;      
+    position: fixed;         
+    width: 100%;
+    bottom: 0;              
+}
